@@ -1,0 +1,24 @@
+{
+  "name": "hadith-narrator-database",
+  "version": "0.1.0",
+  "description": "A modern, scalable platform for studying, organizing, and analyzing Hadith narrators.",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {},
+  "keywords": [
+    "hadith",
+    "islam",
+    "ilm-al-rijal",
+    "hadith-narrator",
+    "database"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
+  }
+}
