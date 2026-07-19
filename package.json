@@ -8,7 +8,9 @@
     "frontend",
     "backend"
   ],
-  "scripts": {},
+  "scripts": {
+    "dev": "npm run dev --workspace frontend"
+  },
   "keywords": [
     "hadith",
     "islam",
