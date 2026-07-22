@@ -1,7 +1,7 @@
 {
-  "name": "hadith-narrator-database",
+  "name": "edu-platform",
   "version": "0.1.0",
-  "description": "A modern, scalable platform for studying, organizing, and analyzing Hadith narrators.",
+  "description": "An AI-powered educational platform connecting students and educators through structured courses, intelligent learning assistance, and modern teaching tools.",
   "private": true,
   "type": "module",
   "workspaces": [
@@ -12,11 +12,14 @@
     "dev": "npm run dev --workspace frontend"
   },
   "keywords": [
-    "hadith",
-    "islam",
-    "ilm-al-rijal",
-    "hadith-narrator",
-    "database"
+    "education",
+    "learning-platform",
+    "online-courses",
+    "ai",
+    "artificial-intelligence",
+    "lms",
+    "e-learning",
+    "teaching"
   ],
   "license": "MIT",
   "engines": {

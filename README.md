@@ -1,190 +1,183 @@
-# Hadith Narrator Database
+# Edu Platform
 
-A modern, scalable, and research-oriented platform for exploring, analyzing, and studying the narrators of Hadith.
+An AI-powered online learning platform designed to connect skilled university students and educators with learners through structured courses, interactive learning, and intelligent assistance.
 
-> **Project Status:** 🚧 Under Active Development
-
----
-
-## Overview
-
-The Hadith Narrator Database aims to provide a comprehensive digital resource for the science of **ʿIlm al-Rijāl (علم الرجال)** by organizing information about Hadith narrators in a structured and searchable format.
-
-The long-term goal is to build a platform that supports students, researchers, and scholars by combining classical biographical works with modern software engineering practices.
+The initial focus is to empower university students (especially BUET students) who already teach through tutoring to create high-quality online courses and reach more learners.
 
 ---
 
-## Objectives
+## Vision
 
-* Build a comprehensive database of Hadith narrators.
-* Store narrator biographies and scholarly evaluations.
-* Model relationships between narrators and teachers/students.
-* Support advanced search and filtering.
-* Enable chain (Isnād) analysis.
-* Provide a scalable API for future integrations.
-* Maintain a clean, extensible architecture suitable for long-term development.
+Traditional tutoring is often limited by location, time, and personal networks. Many talented university students have excellent knowledge but lack the infrastructure to create structured courses.
+
+Edu Platform aims to provide:
+
+* A trusted space for educators to publish courses
+* A better learning experience for students
+* AI-powered tools to help teachers create and manage educational content
+* Personalized assistance for learners
 
 ---
 
-## Planned Features
+## Core Features (Planned)
 
-### Narrator Management
+### Student Features
 
-* Narrator profiles
-* Alternate names (kunya, laqab, nisbah)
-* Birth and death information
-* Places
-* Teachers
-* Students
-* Reliability gradings
-* Biographical notes
-* References from classical works
+* User registration and authentication
+* Browse available courses
+* Enroll in courses
+* Watch/read course lessons
+* Track learning progress
+* Ask AI questions related to course materials
+* Take quizzes and assessments
 
-### Search
+---
 
-* Full-text search
-* Advanced filtering
-* Search by narrator
-* Search by kunya
-* Search by teacher/student
-* Search by reliability
+### Teacher Features
 
-### Chain Analysis
+* Instructor profile creation
+* Course creation and management
+* Upload learning materials
+* Organize lessons
+* Generate quizzes using AI assistance
+* Monitor student progress
 
-* Narrator relationship visualization
-* Teacher–student graph
-* Isnād traversal
-* Connectivity analysis
+---
 
-### API
+### Admin Features
 
-* REST API
-* Authentication
-* Authorization
-* Pagination
-* Filtering
-* Versioning
+* Verify instructors
+* Approve courses
+* Manage users and platform content
+* Handle platform operations
+
+---
+
+## AI Integration
+
+AI will be used to enhance both teaching and learning.
+
+Planned AI features:
+
+* AI teaching assistant
+* Question answering based on course materials
+* Automatic quiz generation
+* Lesson summarization
+* Personalized learning assistance
+
+Future implementation may include Retrieval-Augmented Generation (RAG) systems using course documents and educational resources.
+
+---
+
+## Technology Stack
+
+### Frontend
+
+* React
+* Vite
+* TypeScript
+* Tailwind CSS (planned)
+
+### Backend
+
+* Node.js
+* Backend API framework (planned)
+* TypeScript
+
+### Database
+
+* PostgreSQL
+
+### AI
+
+* Large Language Model APIs
+* Embeddings and vector search (planned)
+
+### Development Tools
+
+* Git & GitHub
+* VS Code
+* ESLint
+* Prettier
 
 ---
 
 ## Project Structure
 
 ```text
-.
-├── assets/
-├── backend/
-├── database/
-├── docs/
-├── frontend/
-├── .github/
-├── .vscode/
-├── README.md
-└── package.json
+edu_platform/
+│
+├── frontend/          # Student and teacher web interface
+│
+├── backend/           # Backend API and business logic
+│
+├── database/          # Database schema and migrations
+│
+├── docs/              # Documentation
+│
+├── assets/            # Images and other resources
+│
+├── .github/           # GitHub workflows
+│
+└── README.md
 ```
 
-### Directory Overview
-
-| Directory   | Purpose                                                   |
-| ----------- | --------------------------------------------------------- |
-| `frontend/` | React frontend application                                |
-| `backend/`  | NestJS backend API                                        |
-| `database/` | Database schema, migrations, seeds, and related resources |
-| `docs/`     | Project documentation                                     |
-| `assets/`   | Images, logos, diagrams, and other static assets          |
-| `.github/`  | GitHub workflows and automation                           |
-| `.vscode/`  | Shared VS Code workspace configuration                    |
-
 ---
 
-## Planned Technology Stack
+## Development Roadmap
 
-### Frontend
+### Phase 1 — Foundation
 
-* React
-* TypeScript
-* Vite
-* Tailwind CSS
-
-### Backend
-
-* NestJS
-* TypeScript
-
-### Database
-
-* PostgreSQL
-* Prisma ORM
-
-### Development
-
-* Git
-* GitHub
-* ESLint
-* Prettier
-* Docker (planned)
-
----
-
-## Development Philosophy
-
-This project emphasizes:
-
-* Clean Architecture
-* SOLID principles
-* Type safety
-* Modular design
-* Scalable codebase
-* Maintainable database design
-* Thorough documentation
-* Incremental development
-
-The objective is not merely to build an application, but to establish a maintainable software project that can continue to evolve over time.
-
----
-
-## Documentation
-
-Project documentation will be maintained in the `docs/` directory.
-
-Planned documentation includes:
-
-* Requirements
-* System architecture
+* Project setup
+* Authentication system
 * Database design
-* API specification
-* Development guide
+* User roles
+
+### Phase 2 — Learning Platform
+
+* Course management
+* Lessons
+* Enrollment system
+* Student dashboard
+* Teacher dashboard
+
+### Phase 3 — AI Features
+
+* AI assistant integration
+* Course material analysis
+* Quiz generation
+* AI-powered learning support
+
+### Phase 4 — Platform Expansion
+
+* Payment integration
+* Instructor revenue system
+* Reviews and ratings
+* Mobile application
+* Advanced analytics
 
 ---
 
-## Roadmap
+## Project Goals
 
-* [x] Initialize repository
-* [x] Establish project structure
-* [ ] Configure npm workspaces
-* [ ] Scaffold frontend
-* [ ] Scaffold backend
-* [ ] Configure PostgreSQL
-* [ ] Configure Prisma
-* [ ] Design database schema
-* [ ] Implement authentication
-* [ ] Develop REST API
-* [ ] Build frontend interface
-* [ ] Deployment
+This project aims to explore:
+
+* Full-stack application development
+* Scalable software architecture
+* AI-powered applications
+* Educational technology
+* Real-world product development
 
 ---
 
-## Contributing
+## Status
 
-Contribution guidelines will be added as the project matures.
+🚧 Currently under active development.
+
+The first version focuses on building a functional learning management system and validating the needs of students and educators.
 
 ---
 
 ## License
 
-This project is licensed under the terms specified in the `LICENSE` file.
-
----
-
-## Acknowledgements
-
-This project is inspired by the rich scholarly tradition of Islamic Hadith studies and seeks to complement that tradition with modern software engineering practices.
+This project is currently for educational and experimental purposes.
